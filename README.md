@@ -1,7 +1,5 @@
 ## Getting started:
 
-
-
 ### Usage:
 ```
 mkdir $USER/projects
@@ -76,7 +74,3 @@ git checkout .
 ```
 ## Hard, delete commits and file changes
 git reset --hard <id of prev commit>
-
-test1
-test 2
-test from github  
