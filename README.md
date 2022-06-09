@@ -75,3 +75,4 @@ git checkout .
 ## Hard, delete commits and file changes
 git reset --hard <id of prev commit>
 
+test from git hub commit 1
