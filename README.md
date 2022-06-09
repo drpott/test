@@ -74,9 +74,4 @@ git checkout .
 ```
 ## Hard, delete commits and file changes
 git reset --hard <id of prev commit>
-<<<<<<< HEAD
-=======
 
-test1
-test 2
->>>>>>> parent of 76d0a3b (update from github)
