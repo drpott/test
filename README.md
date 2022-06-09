@@ -32,20 +32,12 @@ cd TestREpo
 git init
 ```
 
-## stage a file and commit it:
-```
-git status
-git add myfile.txt
-git commit -m 'my first commit'
-```
-
-## go back to previous change (or commit read only):
+## go back to previous change (or commit in read only):
 ```
 git status
 git checkout <filename or commit>
 git status
 ```
-
 ## Revert to previous commit, but dont change or delete previous commits:
 ```
 git log --oneline
@@ -58,7 +50,6 @@ git branch dev
 git branch
 git checkout dev
 ```
-
 ## Merge dev to master branch:
 ```
 git branch
@@ -88,4 +79,4 @@ git reset --hard <id of prev commit>
 
 test1
 test 2
-  test from github  
+test from github  
