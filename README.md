@@ -77,3 +77,5 @@ git reset --hard <id of prev commit>
 
 test from git hub commit 1
   test from git hub commit 2
+  
+  test from git hub dev commit 1
