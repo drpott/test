@@ -1,4 +1,28 @@
 ## Getting started:
+## create the repo first in GITHUB
+## on your PC, localy, init git in the directory:
+```
+git init
+```
+connect the locally created repo to the remote
+```
+git remote add origin git@github.com:drpott/<repo_name>.git
+git remote -v
+```
+## Fetch the remote repo
+```
+git fetch --all
+```
+## checkout the main branch
+```
+git checkout main
+```
+## push or upate the remote repo with main branch (or any other branch)
+```
+git push --set-upstream origin main
+git branch --set-upstream-to=passmgmt/main origin
+git push origin main
+```
 
 ### Usage:
 ```
