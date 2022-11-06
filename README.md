@@ -69,10 +69,12 @@ git revert<SHA1 hash>
 
 #### Create a branch and work on it:
 ```
-git branch dev
 git branch
+git branch dev
 git checkout dev
+git checkout -b dev
 ```
+
 #### Merge dev to master branch:
 ```
 git branch
@@ -84,14 +86,14 @@ git merge dev master
 ```
 git log --oneline
 git reset --mixed <id of previous commit>
-### if you want to delete the changes from the files
-git checkout .
+git checkout . ### if you want to delete the changes from the files
 ```
 
 #### Soft, delete commits and keep files staged
 ```
 git reset --soft <id of prev commit>
 ```
+
 ### if you need to make changes to the file, unstage them:
 ```
 git reset .
@@ -102,10 +104,14 @@ git checkout .
 ```
 git reset --hard <id of prev commit>
 ```
-test from git hub commit 1
-  test from git hub commit 2
-  
-  test from git hub dev commit 1
-  test from git hub dev commit 2
-    test from git hub dev commit 3
 
+#### Test your commits here:
+
+```
+test from git hub commit 1
+test from git hub commit 2
+  
+test from git hub dev commit 1
+test from git hub dev commit 2
+test from git hub dev commit 3
+```
