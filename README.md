@@ -1,6 +1,6 @@
 # Getting started:
-## 1. create the repo first in GITHUB
-## 2. on your PC, locally, init git in the directory:
+### 1. create the repo first in GITHUB
+### 2. on your PC, locally, init git in the directory:
 ```
 git init
 ```
